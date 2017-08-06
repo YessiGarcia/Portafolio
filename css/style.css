@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?e5tef9");
+  src: url("../fonts/icomoon.eot?e5tef9#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?e5tef9") format("truetype"), url("../fonts/icomoon.woff?e5tef9") format("woff"), url("../fonts/icomoon.svg?e5tef9#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  height: 50px;
+  background-color: #f16260;
+  display: flex;
+  justify-content: flex-end; }
+
+header label {
+  font-size: 30px;
+  cursor: pointer;
+  display: none; }
+
+header img {
+  height: 40px;
+  margin: 5px;
+  position: absolute;
+  left: 1%; }
+
+#btn-menu {
+  display: none; }
+
+.menu ul {
+  background-color: #f16260;
+  display: flex;
+  list-style: none; }
+
+.menu ul ul {
+  display: none; }
+
+.menu a {
+  display: block;
+  padding: 15px 40px;
+  color: beige;
+  text-decoration: none; }
+
+.menu a:hover {
+  background-color: beige;
+  color: #f16260; }
+
+.menu ul li:hover ul {
+  display: block;
+  position: absolute; }
+
+.boton {
+  height: 30px;
+  width: 60px;
+  background-color: black;
+  color: beige; }
+
+#contacto {
+  background: black;
+  height: 150px; }
+
+.redes {
+  font-family: 'icomoon';
+  font-size: 20px; }
+
+.redes li:nth-child(1) > a::before {
+  content: "\e942"; }
+
+.redes li:nth-child(2) > a::before {
+  content: "\ea93"; }
+
+.redes li:nth-child(3) > a::before {
+  content: "\ea95"; }
+
+.redes li:nth-child(4) > a::before {
+  content: "\ea86"; }
+
+.redes li:nth-child(5) > a::before {
+  content: "\eac9"; }
+
+.redes li:nth-child(6) > a::before {
+  content: "\eab0"; }
+
+@media (max-width: 720pX) {
+  .icon-menu {
+    display: block;
+    right: 90%;
+    display: flex;
+    color: beige; }
+  .menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.3s; }
+  .menu ul {
+    display: block;
+    top: 50px; }
+  .menu ul li:hover ul {
+    display: none;
+    position: static; }
+  .menu ul ul a {
+    padding: 15px 70px; }
+  #btn-menu:checked ~ .menu {
+    transform: translateX(0%); }
+  .boton {
+    width: 100%; } }
