@@ -5,3 +5,9 @@ $(".sub-menu").click(function(){
 $("ul").click(function(e){
 	e.stopPropagation();
 });
+
+jQuery('.skillbar').each(function(){
+	jQuery(this).find('.skillbar-bar').animate({
+		width:jQuery(this).attr('data-percent')
+	},2000);
+});
