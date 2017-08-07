@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="250px" height="250px" viewBox="0 0 250 250" xml:space="preserve">
+<g>
+	<path style="fill:#E34F26;" d="M94.3,104.6h32.6V79.3H92L94.3,104.6z M28.2,13.4l18,201.6l80.7,22.4l80.7-22.4l18-201.6H28.2z
+		 M192.2,202.1l-65.3,18.1v-25.7l0,0l-50.6-14.1l-3.5-39.7h24.8l1.8,20.6l27.5,7.4l0,0v-39.5H71.7L65,54.6h61.9V29.9h80.7
+		L192.2,202.1z"/>
+	<path style="fill:#EF652A;" d="M157,129.4h-30.4v39.5l27.6-7.4L157.3,129.4z M126.9,29.9
+		v24.7h61.9l-2.2,24.7h-59.7v25.3h57.4l-6.8,75.9l-50.7,14v25.7l65.3-18.1l15.4-172.3H126.9L126.9,29.9z"/>
+	<g>
+		<polygon style="fill:#ffffff;" points="126.9,54.6 65,54.6 71.7,129.4 126.9,129.4 126.9,104.6 94.3,104.6 92,79.3 126.9,79.3
+			"/>
+		<polygon style="fill:#ffffff;" points="126.9,168.9 126.9,168.9 99.3,161.4 97.5,140.9 72.7,140.9 76.2,180.5 126.9,194.6
+			126.9,194.6 		"/>
+	</g>
+</g>
+</svg>
