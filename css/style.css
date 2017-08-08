@@ -12,13 +12,13 @@
 
 body {
   font-family: 'Libre Baskerville', serif;
-  padding-top: 50px; }
+  padding-top: 60px; }
 
 header {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
+  height: 60px;
   background-color: rgba(5, 0, 0, 0.8);
   display: flex;
   justify-content: flex-end; }
@@ -29,7 +29,7 @@ header label {
   display: none; }
 
 header img {
-  height: 40px;
+  height: 50px;
   margin: 5px;
   position: absolute;
   left: 1%;
@@ -77,10 +77,12 @@ header img {
     margin-right: 8%;
     font-size: 2em;
     border-bottom: 3px solid #f9f4de; }
-  #principal h1 {
-    font-size: 5em;
-    font-family: 'Marck Script', cursive;
-    font-weight: 100; }
+
+.hit-the-floor {
+  color: #fff;
+  font-size: 5em;
+  font-family: 'Marck Script', cursive;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
 
 .contenido {
   background-color: #f9f4de;
@@ -202,10 +204,10 @@ header img {
   display: flex;
   margin: 30px auto;
   padding: 20px;
-  box-shadow: 0 0 8px #59524d;
+  box-shadow: 1px 1px 4px #59524d;
   border-radius: 5px; }
   .proyecto:hover {
-    box-shadow: 0 0 15px #59524d; }
+    box-shadow: 1px 1px 10px #59524d; }
   .proyecto .texto {
     width: 70%; }
     .proyecto .texto p {
@@ -288,6 +290,8 @@ header img {
     font-size: 2em; }
   #principal .front {
     font-size: 1em; }
+  .proyecto .texto, .proyecto .imagen {
+    width: 100%; }
   #contacto .redes li {
     font-size: 20px;
     margin: 0 5px; } }
