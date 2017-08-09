@@ -83,8 +83,6 @@ header img {
   font-size: 5em;
   font-family: 'Marck Script', cursive;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
-  .nombre .a {
-    display: none; }
 
 .contenido {
   background-color: #f9f4de;
@@ -98,7 +96,7 @@ header img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5em; }
+  font-size: 5vh; }
   .acerca p {
     text-align: center;
     width: 70%; }
@@ -297,7 +295,9 @@ header img {
   .boton {
     width: 100%; }
   .proyecto {
-    width: 95%; } }
+    width: 95%; }
+  .acerca p {
+    width: 90%; } }
 
 @media screen and (max-width: 620px) {
   .contenido h2 {
@@ -311,9 +311,13 @@ header img {
       margin-top: 10px; } }
 
 @media screen and (max-width: 550px) {
-  .texto a {
-    margin: 20px; } }
+  .proyecto .texto {
+    font-size: 4vh; }
+    .proyecto .texto a {
+      margin: 20px; } }
 
-@media screen and (max-height: 440px) {
+@media screen and (max-width: 440px) {
   #contacto .redes li {
-    margin: 0 5px; } }
+    margin: 0 5px; }
+  .acerca {
+    font-size: 3vh; } }
