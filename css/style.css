@@ -53,7 +53,7 @@ header img {
   color: #59524d; }
 
 .boton {
-  height: 30px;
+  height: 60px;
   width: 60px;
   color: #f9f4de; }
 
@@ -267,8 +267,6 @@ header img {
 
 @media (max-width: 720pX) {
   .icon-menu {
-    display: block;
-    right: 90%;
     display: flex;
     color: beige; }
   .menu {
@@ -290,6 +288,10 @@ header img {
     font-size: 2em; }
   #principal .front {
     font-size: 1em; }
+  .contenido h2 {
+    font-size: 1.5em; }
+  .barra div, .barra span {
+    display: none; }
   .proyecto .texto, .proyecto .imagen {
     width: 100%; }
   #contacto .redes li {
