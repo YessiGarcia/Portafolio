@@ -319,7 +319,8 @@ header img {
 
 @media screen and (max-width: 440px) {
   .nombre {
-    font-size: 3em; }
+    font-size: 3em;
+    margin-left: 20%; }
   #contacto .redes li {
     margin: 0 5px; }
   .acerca {
